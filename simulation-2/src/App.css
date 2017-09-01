@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 50px;
+}
+
+.nav{
+  width: 100%;
+  height: 80px;
+  background-color: #54a888;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 12%;
+}
+
+.img{
+  width:90%;
+  margin:5%
+}
+
+.yourlistings{
+  background-color: white;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.logo{
+  grid-column: 4;
+   grid-row: 2; 
+}
+
+.logoText{
+  grid-column: 5 / 9;
+   grid-row: 2; 
+  font-size: 2rem;
+   color:white;
+}
+
+.logout{
+  grid-column: 10;
+  text-align: right;
+  color:white;
+  grid-row: 2;
+   margin-top: 3px; 
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

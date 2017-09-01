@@ -1,0 +1,23 @@
+{
+  "name": "simulation-2",
+  "version": "1.0.0",
+  "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kswensen/simulation-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kswensen/simulation-2/issues"
+  },
+  "homepage": "https://github.com/kswensen/simulation-2#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
